@@ -43,7 +43,7 @@ These describe the current agreed design. A new user request takes precedence.
 - The supplied podium portrait sits directly below the name and above the
   introduction in the left sidebar. It fills the heading’s width and preserves
   its original proportions. The sidebar scrolls
-  with the page on shorter screens so its navigation stays accessible.
+  with the page on shorter screens so the photo and introduction stay accessible.
 - The index introduction keeps only the supplied paragraph about current Norik
   and Palantir roles. The second paragraph summarizing past achievements is removed.
 - Keep the name, headings, and page copy lowercase, including abbreviations,
@@ -57,7 +57,9 @@ These describe the current agreed design. A new user request takes precedence.
 - On desktop, dates sit in the left column beside each entry. On narrow screens
   they stack above it. Undated entries should align with the other entry text;
   do not add placeholder dates.
-- Keep all top-level sections visible, with the sidebar navigation. Other
+- Keep all top-level sections visible. The navigation sits in a horizontal row
+  beside the name at the top of the page, wrapping below the name on narrow
+  screens. Other
   experiences uses three compact horizontal boxes with a heading, short subtitle
   and landscape thumbnail. Clicking a box opens a native dialog containing the
   full description, awards and media. Popups size to their content, with a simple
@@ -70,9 +72,9 @@ These describe the current agreed design. A new user request takes precedence.
   contains quantum-classical ML, Trispectra, then emergent misalignment.
 - Other experiences contains competitive programming, Strand House, then
   debating. Programming and debating awards belong in their respective popups.
-  The debating bio keeps its opening sentence, followed by the user’s sentence
-  about winning the 2026 european championships and representing the country at
-  worlds and euros for two years.
+  The debating card subtitle is “captain of england's national debate team,
+  2026 european champions. built the world's biggest u16 free debating competition.”
+  The popup retains the fuller biography, awards and WorldSpeak details.
   Keep Strand House dated 2026 and debating without a separate date label, and
   preserve both article links. Awards and other is ordered Pareto, Arkwright, TeenTech science fair winner
   (2024, ai-powered hydroponics device, environment & energy), then LSE (2023, organization and role heading

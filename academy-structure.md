@@ -6,7 +6,8 @@ The current skeleton is `index.html`, synchronized with
 historical draft; it is not the page served by GitHub Pages.
 
 The left column shows the supplied podium portrait directly below the name and
-above the introduction paragraph, at the same width as the heading. It preserves
+above the introduction paragraph, at the same width as the heading. Navigation
+sits in a horizontal row beside the name, wrapping below it on narrow screens. It preserves
 the image’s original proportions.
 
 ## Reading order
@@ -64,7 +65,7 @@ research dialog. Modified clicks and no-JavaScript visits retain link destinatio
 ## Design
 
 Keep the gray background, system sans-serif fonts, muted descriptions, left-hand
-dates, sidebar navigation and fine rules. The wider content area gives media
+dates, a top navigation row beside the name, and fine rules. The wider content area gives media
 room without introducing a new theme. Experience boxes stay horizontal on narrow
 screens; photo pairs inside their dialogs stack. Keep dark mode, keyboard focus, skip link and print support.
 

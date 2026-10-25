@@ -36,7 +36,7 @@ print. Escape, close, backdrop dismissal and focus return work in both dialogs.
 | `palantir-01` | Supplied Palantir group photograph, converted from HEIC to JPEG and displayed at full content width without cropping. | Nothing required. |
 | `norik-demo` | Original 12-second application-filling clip with the user-supplied custom-agents caption, local poster and external full-demo link. Autoplays muted and loops. | Nothing required. |
 | `wildfire-figure` | Hybrid model accuracy curve from figure 4 and quantum circuit from figure 2; 95.5% validation accuracy versus 87.34% classical baseline (table i). Separate IEEE archive link and local final-paper popup. | Nothing required. |
-| `trispectra-talk` | Supplied silent presentation recording, converted to a 10.7-second H.264 MP4. Supplied paper opens in the PDF popup. | Audio or a longer clip only if supplied later. |
+| `trispectra-talk` | Supplied silent presentation recording, converted to a 10.7-second H.264 MP4 that autoplays muted and loops. Supplied paper opens in the PDF popup. | Audio or a longer clip only if supplied later. |
 | `misalignment-poster` | Full poster image linking directly to the supplied PDF; one-sentence research summary. No preview button or popup. | Nothing required. |
 | `programming-photo` | Photograph extracted from the supplied Olympiad PDF, displayed beside its description. Certificate removed at the user’s request. | Nothing required. |
 | `strand-house-01` | Supplied group photo appears in the box and beside the popup description. Subtitle highlights the youngest resident; popup includes weekly founder/investor meetings and links to General Intuition and Kaikaku. | Additional photos can be added when supplied. |
@@ -51,9 +51,9 @@ Keep both index HTML files synchronized.
 
 Images need descriptive alt text, real width/height and lazy loading. Preserve
 whole certificates and posters; link to a full-resolution version for reading.
-Videos use native controls, `playsinline` and a poster. Norik autoplays muted
-and loops, with `preload="metadata"`; Trispectra remains user-initiated with
-`preload="none"`. Add captions when the supplied video includes speech. Pending video
+Videos use native controls, `playsinline` and a poster. Both Norik and Trispectra
+autoplay muted and loop, with `preload="metadata"`. Add captions when the supplied
+video includes speech. Pending video
 links are explicitly disabled until their URLs arrive.
 
 Research links are labelled “paper”. Local PDFs use their relative path for both

@@ -93,7 +93,8 @@ These describe the current agreed design. A new user request takes precedence.
   The second photo placeholder is removed until another photo is supplied.
 - Missing media has explicit placeholders identified by `data-media-slot`.
   Keep missing video links visibly pending and disabled, without invented URLs.
-  Trispectra uses the supplied local PDF and silent presentation recording.
+  Trispectra uses the supplied local PDF and silent presentation recording,
+  which autoplays muted and loops with native controls and inline playback.
   The emergent-misalignment summary stays to one brief sentence. Display its
   poster inline, linking directly to the full PDF without a preview button or
   popup. The Olympiad popup shows its photograph beside the short description;

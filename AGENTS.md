@@ -61,8 +61,8 @@ These describe the current agreed design. A new user request takes precedence.
   appropriate; the BIO certificate is removed. Without JavaScript, the full stories remain
   in the page; print shows the full stories too.
 - The current section order is work, research & projects, other experiences
-  (`id="other"`), education, then miscellaneous (keeping `id="awards"` for existing links). Work contains
-  Palantir and Norik; LSE has moved to miscellaneous and Greenstar is removed. Research
+  (`id="other"`), awards and other (`id="awards"`), then education. Work contains
+  Palantir and Norik; LSE belongs in awards and other and Greenstar is removed. Research
   contains quantum-classical ML, Trispectra, then emergent misalignment.
 - Other experiences contains competitive programming, Strand House, then
   debating. Programming and debating awards belong in their respective popups.
@@ -70,7 +70,7 @@ These describe the current agreed design. A new user request takes precedence.
   about winning the 2026 european championships and representing the country at
   worlds and euros for two years.
   Keep Strand House dated 2026 and debating without a separate date label, and
-  preserve both article links. Miscellaneous is ordered Pareto, Arkwright, TeenTech science fair winner
+  preserve both article links. Awards and other is ordered Pareto, Arkwright, TeenTech science fair winner
   (2024, ai-powered hydroponics device, environment & energy), then LSE (2023, organization and role heading
   followed by the aged-15 sentence in muted text; no bullets or code link). The TeenTech PDF is reference-only: do not display or link
   its certificate or photo.

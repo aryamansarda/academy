@@ -10,9 +10,9 @@ historical draft; it is not the page served by GitHub Pages.
 1. Work: Palantir and Norik. Greenstar is removed.
 2. Research & projects: quantum-classical ML, Trispectra, emergent misalignment.
 3. Other experiences: competitive programming, Strand House, debating.
-4. Education: St Paul’s and City of London.
-5. Miscellaneous: Pareto fellowship, Arkwright engineering scholarship, TeenTech
+4. Awards and other: Pareto fellowship, Arkwright engineering scholarship, TeenTech
    science fair winner, London School of Economics (2023; heading followed by the aged-15 sentence).
+5. Education: St Paul’s and City of London.
 
 Norik is plain text in the introduction and heading, with website and full-demo
 links below its description. The personal explainer block stays removed. The

@@ -1,0 +1,148 @@
+:root {
+  color-scheme: light dark;
+  --paper: light-dark(#efefef, #202020);
+  --ink: light-dark(#262626, #ededed);
+  --muted: light-dark(#626262, #b8b8b8);
+  --rule: light-dark(#cecece, #464646);
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; }
+body { -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-underline-offset: 5px; text-decoration-thickness: 1px; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+.concept-switch { display: flex; align-items: baseline; gap: 24px; padding: 12px 40px; border-bottom: 1px solid var(--rule); font-size: 13px; line-height: 1.5; }
+.concept-switch a { display: inline-flex; align-items: center; min-height: 32px; text-decoration: none; color: var(--muted); }
+.concept-switch a:hover, .concept-switch a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+.concept-switch a:last-child { margin-left: auto; }
+#aryaman-index { padding: 60px 48px 36px; font-size: 17px; line-height: 1.6; }
+#aryaman-index h1, #aryaman-index h2, #aryaman-index p, #aryaman-index ul { margin: 0; padding: 0; }
+#aryaman-index ul { list-style: none; }
+.ai-wrap { max-width: 1200px; margin: 0 auto; }
+.ai-skip { position: absolute; top: -100px; left: 24px; z-index: 5; background: var(--paper); padding: 12px; }
+.ai-skip:focus { top: 12px; }
+.ai-intro { text-wrap: pretty; }
+.ai-contact { font-size: 15px; line-height: 1.65; }
+#aryaman-index .ai-contact-links { display: flex; flex-direction: column; align-items: flex-start; margin-top: 10px; }
+.ai-contact-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.ai-nav a { text-decoration: none; }
+.ai-nav a:hover .ai-nav-label { text-decoration: underline; }
+.ai-nav-number, .ai-nav-arrow, .ai-section-number { color: var(--muted); font-size: 12px; font-weight: 400; font-variant-numeric: tabular-nums; }
+.ai-section { scroll-margin-top: 32px; }
+.ai-section-number { font-family: var(--sans); }
+.ai-entry { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 24px; break-inside: avoid; }
+.ai-year { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; padding-top: 4px; white-space: nowrap; }
+.ai-entry-main { min-width: 0; overflow-wrap: break-word; }
+.ai-entry-undated .ai-entry-main { grid-column: 2; }
+.ai-title { font-weight: 550; }
+.ai-role { font-size: 16px; font-weight: 400; }
+.ai-entry-heading a, .ai-inline-link { text-decoration: none; }
+.ai-entry-heading a:hover, .ai-inline-link:hover { text-decoration: underline; }
+.ai-detail { color: var(--muted); }
+#aryaman-index .ai-detail { margin-top: 6px; }
+#aryaman-index .ai-resources { margin-top: 12px; font-size: 14px; display: flex; flex-wrap: wrap; gap: 24px; }
+.ai-resources a { text-decoration-color: var(--muted); }
+.ai-footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--rule); }
+#aryaman-index .ai-footer { padding-top: 24px; }
+
+/* Folio: a broad masthead and a continuous, quietly typeset record. */
+.folio .ai-profile { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(240px, 1fr); gap: 0 100px; }
+#aryaman-index.folio h1 { grid-column: 1 / -1; font-family: Georgia, "Times New Roman", serif; font-size: clamp(64px, 7.5vw, 100px); font-weight: 400; letter-spacing: -.065em; line-height: 1.05; margin-bottom: 42px; }
+.folio .ai-intro { font-size: 23px; line-height: 1.55; letter-spacing: -.015em; }
+.folio .ai-contact { max-width: 275px; justify-self: end; padding-top: 4px; }
+#aryaman-index.folio .ai-nav { display: flex; flex-wrap: wrap; grid-column: 1 / -1; gap: 0 32px; margin-top: 48px; padding: 12px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); }
+.folio .ai-nav a { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; }
+.folio .ai-nav-arrow { display: none; }
+.folio .ai-section { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 54px; padding: 46px 0 50px; }
+.folio .ai-section + .ai-section { border-top: 1px solid var(--rule); }
+#aryaman-index.folio h2 { font-family: Georgia, "Times New Roman", serif; font-size: 28px; font-weight: 400; letter-spacing: -.04em; line-height: 1.25; display: flex; flex-direction: column-reverse; align-items: flex-start; justify-content: flex-end; gap: 14px; }
+.folio h2 .ai-section-number { letter-spacing: 0; }
+.folio .ai-entry { font-size: 18px; grid-template-columns: 76px minmax(0, 1fr); gap: 30px; }
+#aryaman-index.folio .ai-entry + .ai-entry { margin-top: 31px; }
+.folio .ai-role { font-size: 17px; }
+
+/* Columns: a persistent profile and a compact, two-column directory. */
+#aryaman-index.columns { padding: 54px 40px 36px; font-size: 16px; }
+.columns .ai-wrap { display: grid; grid-template-columns: 240px minmax(0, 1fr); column-gap: 64px; max-width: 1440px; }
+.columns .ai-profile { align-self: start; position: sticky; top: 40px; }
+#aryaman-index.columns h1 { font-size: 49px; line-height: .98; font-weight: 500; letter-spacing: -.065em; max-width: 230px; margin-bottom: 30px; }
+.columns .ai-intro { font-size: 16px; line-height: 1.75; }
+#aryaman-index.columns .ai-contact { margin-top: 28px; }
+#aryaman-index.columns .ai-nav { display: grid; margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--rule); }
+.columns .ai-nav a { display: grid; grid-template-columns: 20px 1fr 12px; gap: 12px; align-items: baseline; min-height: 44px; padding: 9px 0; font-size: 14px; }
+.columns main { min-width: 0; }
+.columns .ai-section { padding: 30px 0 38px; border-top: 1px solid var(--rule); }
+.columns .ai-section:first-child { border-color: var(--ink); }
+#aryaman-index.columns h2 { display: flex; justify-content: space-between; align-items: baseline; font-weight: 500; font-size: 23px; letter-spacing: -.035em; line-height: 1.2; margin-bottom: 30px; }
+.columns h2 .ai-section-number { letter-spacing: 0; }
+.columns .ai-section > ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 40px; }
+.columns .ai-entry { grid-template-columns: 55px minmax(0, 1fr); gap: 18px; }
+.columns .ai-year { font-size: 12px; }
+.columns .ai-role { font-size: 15px; }
+.columns .ai-title { font-weight: 550; }
+.columns .ai-footer { grid-column: 2; }
+
+@media (max-width: 1150px) {
+  .folio .ai-profile { gap: 0 56px; }
+  .folio .ai-section { grid-template-columns: 210px minmax(0, 1fr); gap: 40px; }
+  .columns .ai-wrap { grid-template-columns: 230px minmax(0, 1fr); column-gap: 52px; }
+  .columns .ai-section > ul { grid-template-columns: 1fr; gap: 26px; }
+  .columns .ai-entry { grid-template-columns: 68px minmax(0, 1fr); gap: 24px; }
+}
+@media (max-width: 860px) {
+  .concept-switch { padding: 10px 28px; gap: 20px; }
+  #aryaman-index, #aryaman-index.columns { padding: 42px 28px 32px; }
+  .folio .ai-profile { grid-template-columns: minmax(0, 1.5fr) minmax(210px, 1fr); gap: 0 40px; }
+  .folio .ai-intro { font-size: 20px; }
+  .folio .ai-section { grid-template-columns: 165px minmax(0, 1fr); gap: 30px; }
+  .folio .ai-entry { grid-template-columns: 1fr; gap: 4px; font-size: 17px; }
+  .folio .ai-entry-undated .ai-entry-main { grid-column: auto; }
+  #aryaman-index.folio h2 { font-size: 25px; }
+  .columns .ai-wrap { display: block; max-width: 660px; }
+  .columns .ai-profile { position: static; }
+  #aryaman-index.columns h1 { max-width: none; font-size: 48px; margin-bottom: 24px; }
+  .columns .ai-intro { max-width: 560px; font-size: 18px; line-height: 1.65; }
+  .columns .ai-contact { max-width: 340px; }
+  #aryaman-index.columns .ai-nav { display: flex; flex-wrap: wrap; gap: 0 26px; border: 0; margin: 24px 0 20px; padding: 0; }
+  .columns .ai-nav a { display: flex; gap: 8px; font-size: 15px; }
+  .columns .ai-nav-arrow, .columns .ai-nav-number { display: none; }
+}
+@media (max-width: 580px) {
+  .concept-switch { padding: 8px 22px; gap: 22px; font-size: 12px; }
+  #aryaman-index, #aryaman-index.columns { padding: 32px 22px 28px; }
+  .folio .ai-profile { display: block; }
+  #aryaman-index.folio h1 { font-size: clamp(44px, 10.8vw, 62px); margin-bottom: 28px; }
+  .folio .ai-intro { font-size: 19px; line-height: 1.65; }
+  .folio .ai-contact { max-width: 300px; padding: 0; justify-self: start; }
+  #aryaman-index.folio .ai-contact { margin-top: 26px; }
+  #aryaman-index.folio .ai-nav { margin-top: 24px; gap: 0 22px; padding: 10px 0; }
+  .folio .ai-nav a { font-size: 14px; }
+  .folio .ai-nav-number { display: none; }
+  .folio .ai-section { display: block; padding: 32px 0 36px; }
+  #aryaman-index.folio h2 { flex-direction: row; justify-content: space-between; align-items: baseline; margin-bottom: 26px; font-size: 27px; }
+  #aryaman-index.columns h1 { font-size: clamp(37px, 10vw, 48px); }
+  .columns .ai-entry { grid-template-columns: 1fr; gap: 5px; }
+  .columns .ai-entry-undated .ai-entry-main { grid-column: auto; }
+  .columns .ai-intro { font-size: 17px; }
+  #aryaman-index.columns h2 { font-size: 22px; }
+}
+@media (min-width: 861px) and (max-height: 820px) {
+  .columns .ai-profile { position: static; }
+}
+@media (pointer: coarse) {
+  .ai-resources a { min-height: 44px; display: inline-flex; align-items: center; }
+  .concept-switch a { min-height: 44px; }
+}
+@media print {
+  :root { --paper: #fff; --ink: #262626; --muted: #626262; --rule: #cecece; }
+  .concept-switch, .ai-nav, .ai-skip { display: none !important; }
+  #aryaman-index, #aryaman-index.columns { padding: 0; }
+  .columns .ai-wrap { display: block; }
+  .columns .ai-profile { position: static; padding-bottom: 32px; }
+  .ai-section h2 { break-after: avoid; }
+  .ai-entry { break-inside: avoid; }
+}

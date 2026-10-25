@@ -6,7 +6,9 @@ The current skeleton is `index.html`, synchronized with
 historical draft; it is not the page served by GitHub Pages.
 
 The left column shows the supplied podium portrait directly below the name and
-above the introduction paragraph, at the same width as the heading. Navigation
+above the introduction, at the same width as the heading. The introduction
+includes the current-roles paragraph followed by three bullets covering past
+research, competitive programming and debating achievements. Navigation
 sits in a horizontal row beside the name, wrapping below it on narrow screens. It preserves
 the image’s original proportions.
 
@@ -83,6 +85,9 @@ screens; photo pairs inside their dialogs stack. Keep dark mode, keyboard focus,
 - WorldSpeak reach: [official homepage](https://www.worldspeak.co.uk/) reports over
   400 students from 35 countries (checked 2026-10-25). The user supplied the
   description of the largest free competition for students under 16.
+- Pareto description: [official fellowship website](https://paretofellowship.com/),
+  checked 2026-10-25; STEM students, mentorship from founders and investors, and
+  startup resources.
 - Other achievements and numerical claims: supplied by the user or retained from
   the existing index. Recheck the view/citation counts when publishing new copy.
 

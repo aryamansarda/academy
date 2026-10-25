@@ -44,8 +44,10 @@ These describe the current agreed design. A new user request takes precedence.
   introduction in the left sidebar. It fills the heading’s width and preserves
   its original proportions. The sidebar scrolls
   with the page on shorter screens so the photo and introduction stay accessible.
-- The index introduction keeps only the supplied paragraph about current Norik
-  and Palantir roles. The second paragraph summarizing past achievements is removed.
+- The index introduction begins with the supplied paragraph about current Norik
+  and Palantir roles, followed by “in the past, i've:” and three bullets about
+  quantum ML research, a top-15 competitive programming ranking, and captaining
+  England at the European and World Schools Debating Championships.
 - Keep the name, headings, and page copy lowercase, including abbreviations,
   unless the user asks otherwise.
 - Keep descriptions brief and factual, with full stops. Prefer direct language
@@ -80,6 +82,8 @@ These describe the current agreed design. A new user request takes precedence.
   (2024, ai-powered hydroponics device, environment & energy), then LSE (2023, organization and role heading
   followed by the aged-15 sentence in muted text; no bullets or code link). The TeenTech PDF is reference-only: do not display or link
   its certificate or photo.
+  Pareto’s description explains its STEM fellowship, mentorship and startup
+  resources in plain language, without promotional rankings.
   Do not restore Don Lavoie or a separate Writing section without a request.
 - Organization and fellowship links, such as Pareto, retain the heading
   or inline text formatting and are underlined on hover. Reuse `.ai-title` within

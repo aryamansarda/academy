@@ -5,8 +5,9 @@ The current skeleton is `index.html`, synchronized with
 `AGENTS.md`. The earlier `academy.html` / `academy.css` concept remains a separate
 historical draft; it is not the page served by GitHub Pages.
 
-The left column shows the supplied podium portrait below the introduction
-paragraph and above the navigation. It preserves the image’s original proportions.
+The left column shows the supplied podium portrait directly below the name and
+above the introduction paragraph, at the same width as the heading. It preserves
+the image’s original proportions.
 
 ## Reading order
 

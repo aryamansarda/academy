@@ -40,8 +40,9 @@ These describe the current agreed design. A new user request takes precedence.
   generous spacing, and subtle section dividers. Support the existing dark mode.
 - The university offer and associated education entry have been removed from
   all served pages. Do not restore them without a request.
-- The supplied podium portrait sits below the brief introduction and above the
-  navigation in the left sidebar, preserving its original proportions. The sidebar scrolls
+- The supplied podium portrait sits directly below the name and above the
+  introduction in the left sidebar. It fills the heading’s width and preserves
+  its original proportions. The sidebar scrolls
   with the page on shorter screens so its navigation stays accessible.
 - The index introduction keeps only the supplied paragraph about current Norik
   and Palantir roles. The second paragraph summarizing past achievements is removed.

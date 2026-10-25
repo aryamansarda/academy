@@ -30,3 +30,6 @@
 
 - `palantir-group.jpg`: user-supplied `IMG_4542.heic`, converted to a 2048 × 1123
   JPEG for browser support. The full photograph is preserved without cropping.
+
+- `profile.jpg`: the supplied `6BD2013A-8F36-4BF9-8AF6-B459187AF9D5_1_105_c.jpeg`,
+  an 824 × 954 podium portrait displayed below the left-column introduction.

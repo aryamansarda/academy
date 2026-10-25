@@ -27,8 +27,8 @@
 #aryaman-index .ai-wrap { display: grid; grid-template-columns: 260px minmax(0, 1fr); column-gap: 80px; max-width: 1280px; margin: 0 auto; }
 #aryaman-index .ai-profile { position: sticky; top: 56px; align-self: start; }
 #aryaman-index h1 { font-size: 38px; line-height: 1.12; font-weight: 550; letter-spacing: -.05em; }
+#aryaman-index .ai-profile-photo { display: block; width: 180px; max-width: 100%; height: auto; margin-top: 24px; }
 #aryaman-index .ai-intro { margin-top: 25px; font-size: 16px; line-height: 1.8; }
-#aryaman-index .ai-intro p + p { margin-top: 16px; }
 #aryaman-index .ai-contact { margin-top: 20px; font-size: 15px; }
 #aryaman-index .ai-contact-links { display: flex; flex-direction: column; align-items: flex-start; margin-top: 6px; }
 #aryaman-index .ai-contact a { display: inline-flex; align-items: center; min-height: 44px; text-decoration: underline; }
@@ -214,8 +214,8 @@ html.ai-dialog-open { overflow: hidden; scrollbar-gutter: stable; }
       <h1>aryaman sarda</h1>
       <div class="ai-intro">
         <p>i’m a 19 y/o based in london. currently, i’m building norik - a tool to automate visa applications - and working as a forward deployed engineer at palantir.</p>
-        <p>in the past, i've published peer-reviewed research on quantum machine learning, ranked as one of the top 15 competitive programmers in britain and captained england's national debate team at the european and world schools debating championships.</p>
       </div>
+      <img class="ai-profile-photo" src="assets/academy/profile.jpg" width="824" height="954" alt="aryaman speaking at a debate podium">
       <nav class="ai-nav" aria-label="On this page">
         <a href="#work"><span class="ai-nav-number" aria-hidden="true">01</span><span class="ai-nav-label">work</span><span class="ai-nav-arrow" aria-hidden="true">↗</span></a>
         <a href="#research"><span class="ai-nav-number" aria-hidden="true">02</span><span class="ai-nav-label">research & projects</span><span class="ai-nav-arrow" aria-hidden="true">↗</span></a>
@@ -253,7 +253,7 @@ html.ai-dialog-open { overflow: hidden; scrollbar-gutter: stable; }
               </ul>
               <p class="ai-resources"><a href="https://norik.co.uk" target="_blank" rel="noopener noreferrer">visit norik.co.uk ↗</a><a href="https://norik.co.uk/#demo" target="_blank" rel="noopener noreferrer">watch the full product demo ↗</a></p>
               <figure class="ai-media" data-media-slot="norik-demo">
-                <video controls playsinline preload="none" poster="assets/academy/norik-demo-poster.jpg" aria-label="norik filling an official visa application">
+                <video controls autoplay loop muted playsinline preload="metadata" poster="assets/academy/norik-demo-poster.jpg" aria-label="norik filling an official visa application">
                   <source src="assets/academy/norik-demo.mp4" type="video/mp4">
                   <a href="assets/academy/norik-demo.mp4">watch the norik demo</a>
                 </video>

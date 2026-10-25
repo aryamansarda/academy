@@ -40,8 +40,11 @@ These describe the current agreed design. A new user request takes precedence.
   generous spacing, and subtle section dividers. Support the existing dark mode.
 - The university offer and associated education entry have been removed from
   all served pages. Do not restore them without a request.
-- The index introduction uses two paragraphs: current Norik and Palantir roles,
-  then the supplied summary of research, competitive programming and debating.
+- The supplied podium portrait sits below the brief introduction and above the
+  navigation in the left sidebar, preserving its original proportions. The sidebar scrolls
+  with the page on shorter screens so its navigation stays accessible.
+- The index introduction keeps only the supplied paragraph about current Norik
+  and Palantir roles. The second paragraph summarizing past achievements is removed.
 - Keep the name, headings, and page copy lowercase, including abbreviations,
   unless the user asks otherwise.
 - Keep descriptions brief and factual, with full stops. Prefer direct language
@@ -83,7 +86,8 @@ These describe the current agreed design. A new user request takes precedence.
   application-filling clip (about 12 seconds), with the user-supplied caption about
   custom agents filling forms, checking documents and submitting applications, rather
   than the joined full demo. The video and poster are local assets under
-  `assets/academy/`. The personal explainer video and placeholder stay removed.
+  `assets/academy/`. The Norik clip autoplays muted and loops, retaining native
+  controls and inline playback. The personal explainer video and placeholder stay removed.
 - Palantir displays one group photo at full content width, without cropping.
   The second photo placeholder is removed until another photo is supplied.
 - Missing media has explicit placeholders identified by `data-media-slot`.

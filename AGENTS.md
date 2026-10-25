@@ -71,7 +71,7 @@ These describe the current agreed design. A new user request takes precedence.
   worlds and euros for two years.
   Keep Strand House dated 2026 and debating without a separate date label, and
   preserve both article links. Miscellaneous is ordered Pareto, Arkwright, TeenTech science fair winner
-  (2024, environment & energy), then LSE (2024, organization and role heading
+  (2024, ai-powered hydroponics device, environment & energy), then LSE (2023, organization and role heading
   followed by the aged-15 sentence in muted text; no bullets or code link). The TeenTech PDF is reference-only: do not display or link
   its certificate or photo.
   Do not restore Don Lavoie or a separate Writing section without a request.

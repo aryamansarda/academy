@@ -12,7 +12,7 @@ historical draft; it is not the page served by GitHub Pages.
 3. Other experiences: competitive programming, Strand House, debating.
 4. Education: St Paul’s and City of London.
 5. Miscellaneous: Pareto fellowship, Arkwright engineering scholarship, TeenTech
-   science fair winner, London School of Economics (heading followed by the aged-15 sentence).
+   science fair winner, London School of Economics (2023; heading followed by the aged-15 sentence).
 
 Norik is plain text in the introduction and heading, with website and full-demo
 links below its description. The personal explainer block stays removed. The
@@ -80,6 +80,7 @@ screens; photo pairs inside their dialogs stack. Keep dark mode, keyboard focus,
 - Other achievements and numerical claims: supplied by the user or retained from
   the existing index. Recheck the view/citation counts when publishing new copy.
 
-TeenTech is a text-only 2024 environment & energy category win. The supplied
+TeenTech is a text-only 2024 environment & energy category win for an ai-powered
+hydroponics device. The supplied
 “TeenTech Awards + Image on Stage.pdf” is reference material only; neither its
 certificate nor its photograph belongs on the site.

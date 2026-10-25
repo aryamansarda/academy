@@ -11,5 +11,5 @@ asset links. Run `python3 -m http.server 4173 --bind 127.0.0.1` to preview local
 See [AGENTS.md](AGENTS.md) for editing and publishing conventions.
 
 The tag `initial-copy-2026-10-25` preserves the exact original project files,
-including the in-progress research popup edits. IEEE's paper preview awaits a
-user-supplied PDF.
+including the in-progress research popup edits. The current index uses supplied
+PDFs for the wildfire and Trispectra paper previews.

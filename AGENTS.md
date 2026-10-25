@@ -1,6 +1,6 @@
 # Project guide
 
-This repository contains Aryaman Sarda’s personal website. It is a small, static
+This repository contains Aryaman Sarda’s Academy website. It is a small, static
 HTML and CSS site, with no application framework or build step. A small inline
 JavaScript enhancement opens research resource previews in a native dialog.
 
@@ -32,45 +32,96 @@ JavaScript enhancement opens research resource previews in a native dialog.
 
 These describe the current agreed design. A new user request takes precedence.
 
-- Keep the site clean, restrained, and minimalist. Use the existing index layout
-  as the base rather than introducing cards, decorative effects, or a new theme.
+- Keep the site clean, restrained, and minimalist. The index is now a media-led
+  portfolio skeleton built on the existing sidebar layout. Use generous photo
+  and video spaces, subtle dividers, and three compact experience boxes, without
+  decorative effects or a new theme.
 - Preserve the gray background, system sans-serif fonts, readable text sizes,
   generous spacing, and subtle section dividers. Support the existing dark mode.
+- The university offer and associated education entry have been removed from
+  all served pages. Do not restore them without a request.
+- The index introduction uses two paragraphs: current Norik and Palantir roles,
+  then the supplied summary of research, competitive programming and debating.
 - Keep the name, headings, and page copy lowercase, including abbreviations,
   unless the user asks otherwise.
 - Keep descriptions brief and factual, with full stops. Prefer direct language
   over promotional wording. Do not invent dates, achievements, or credentials.
 - Entry descriptions belong below their headings, in muted text, rather than
   inline after a colon. Work headings separate the organization and role with a
-  comma.
+  comma. Roles inherit the heading’s font size and line height, so the organization
+  and role are the same size.
 - On desktop, dates sit in the left column beside each entry. On narrow screens
   they stack above it. Undated entries should align with the other entry text;
   do not add placeholder dates.
-- Keep all sections visible, with the sidebar navigation. Do not restore
-  collapsible sections unless requested.
-- The current section order is work, research & projects, awards, education,
-  and other experiences. The last section keeps `id="other"` for its anchor.
-- Other experiences contains Strand House, dated 2026, followed by debating
-  without a separate date label. The debating article link belongs under that
-  entry. Do not restore the removed Don Lavoie entry or a separate Writing section
-  without a request.
-- Organization and fellowship links, such as Norik and Pareto, retain the heading
+- Keep all top-level sections visible, with the sidebar navigation. Other
+  experiences uses three compact horizontal boxes with a heading, short subtitle
+  and landscape thumbnail. Clicking a box opens a native dialog containing the
+  full description, awards and media. Popups size to their content, with a simple
+  title, close icon and restrained spacing. Use a photo-and-copy layout where
+  appropriate; the BIO certificate is removed. Without JavaScript, the full stories remain
+  in the page; print shows the full stories too.
+- The current section order is work, research & projects, other experiences
+  (`id="other"`), education, then miscellaneous (keeping `id="awards"` for existing links). Work contains
+  Palantir and Norik; LSE has moved to miscellaneous and Greenstar is removed. Research
+  contains quantum-classical ML, Trispectra, then emergent misalignment.
+- Other experiences contains competitive programming, Strand House, then
+  debating. Programming and debating awards belong in their respective popups.
+  The debating bio keeps its opening sentence, followed by the user’s sentence
+  about winning the 2026 european championships and representing the country at
+  worlds and euros for two years.
+  Keep Strand House dated 2026 and debating without a separate date label, and
+  preserve both article links. Miscellaneous is ordered Pareto, Arkwright, TeenTech science fair winner
+  (2024, environment & energy), then LSE (2024, organization and role heading
+  followed by the aged-15 sentence in muted text; no bullets or code link). The TeenTech PDF is reference-only: do not display or link
+  its certificate or photo.
+  Do not restore Don Lavoie or a separate Writing section without a request.
+- Organization and fellowship links, such as Pareto, retain the heading
   or inline text formatting and are underlined on hover. Reuse `.ai-title` within
   `.ai-entry-heading`, or `.ai-inline-link`, as appropriate.
-- The sidebar contact links are an exception: “book a chat” and “email me” are
-  stacked vertically and always underlined. Keep the Calendly URL and
-  `mailto:asarda@palantir.com` unless asked to change them.
+- Norik is plain text in the introduction and its work heading. Keep the explicit
+  website and full-demo links below the work description. Embed the short
+  application-filling clip (about 12 seconds), with the user-supplied caption about
+  custom agents filling forms, checking documents and submitting applications, rather
+  than the joined full demo. The video and poster are local assets under
+  `assets/academy/`. The personal explainer video and placeholder stay removed.
+- Palantir displays one group photo at full content width, without cropping.
+  The second photo placeholder is removed until another photo is supplied.
+- Missing media has explicit placeholders identified by `data-media-slot`.
+  Keep missing video links visibly pending and disabled, without invented URLs.
+  Trispectra uses the supplied local PDF and silent presentation recording.
+  The emergent-misalignment summary stays to one brief sentence. Display its
+  poster inline, linking directly to the full PDF without a preview button or
+  popup. The Olympiad popup shows its photograph beside the short description;
+  do not restore the removed certificate. Strand House uses the supplied group
+  photo in both its box and popup; show the full image beside the description.
+  Its subtitle identifies Aryaman as the youngest resident. Include weekly
+  meetings with founders and leading investors, linking General Intuition and
+  Kaikaku in the popup.
+  Debating likewise uses the supplied speaking photo beside its details and
+  awards. Its speech link is labelled “the european final” and preserves the
+  supplied YouTube timestamp (2652 seconds). Include the WorldSpeak founding
+  note and website link below the debating awards. Its website reports reaching
+  over 400 students from 35 countries; the under-16 competition description is
+  supplied by the user. Keep popup media limited to supplied images, adding further media when
+  it arrives rather than displaying large empty panels.
+  `academy-structure.md` tracks the current asset plan.
+- The sidebar contact block has been removed, including “email me”, the
+  technical-CV introduction and the “book a chat” Calendly link. Do not restore
+  these without a request.
 - Preserve semantic headings, the skip link, visible keyboard focus, responsive
   behavior, and print styles. New external links that open a tab should use
   `rel="noopener noreferrer"`.
-- Research & projects links open the linked page in an on-page iframe dialog,
-  with an explicit “open in new tab” link. Use the Google Docs preview URL for
-  Trispectra. IEEE currently returns a bot-check screen; show a fallback until
-  the user supplies a PDF. Use supplied PDFs where external pages cannot embed.
-  Set `data-preview-url` to a supplied PDF path and remove
-  `data-preview-unavailable` when replacing that fallback. Keep close-button,
-  Escape, backdrop dismissal, and focus return working. Preserve the original
-  link destinations for modified clicks and when JavaScript is unavailable.
+- Research paper links open the supplied local PDFs in an on-page iframe dialog,
+  with an explicit “open in new tab” link. The wildfire entry has two links:
+  “ieee archive” goes directly to the original IEEE article, and “paper” opens
+  the final PDF. Its visual pairs the hybrid model accuracy curve from figure 4 with the
+  quantum circuit from figure 2, with 95.5% validation accuracy versus the 87.34%
+  classical baseline from table i. Preserve the published axes and link images
+  to full-size versions.
+  Trispectra's “paper” link opens its supplied PDF, replacing Google Docs.
+  Keep close-button, Escape, backdrop dismissal and focus return working for
+  both research and experience dialogs. Preserve link destinations for modified
+  clicks and when JavaScript is unavailable.
 
 ## Local preview
 

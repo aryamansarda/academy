@@ -9,7 +9,9 @@ The left column shows the supplied podium portrait directly below the name and
 above the introduction, at the same width as the heading. The introduction
 includes the current-roles paragraph followed by three bullets covering past
 research, competitive programming and debating achievements. Navigation
-sits in a horizontal row beside the name, wrapping below it on narrow screens. It preserves
+sits in a horizontal row beside the name, wrapping below it on narrow screens.
+The same section links also appear below the introduction bullets, vertically
+on desktop and wrapping on mobile. The portrait preserves
 the image’s original proportions.
 
 ## Reading order

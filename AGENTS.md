@@ -43,7 +43,7 @@ These describe the current agreed design. A new user request takes precedence.
 - The supplied podium portrait sits directly below the name and above the
   introduction in the left sidebar. It fills the heading’s width and preserves
   its original proportions. The sidebar scrolls
-  with the page on shorter screens so the photo and introduction stay accessible.
+  with the page on shorter screens so the photo, introduction and sidebar links stay accessible.
 - The index introduction begins with the supplied paragraph about current Norik
   and Palantir roles, followed by “in the past, i've:” and three bullets about
   quantum ML research, a top-15 competitive programming ranking, and captaining
@@ -62,7 +62,9 @@ These describe the current agreed design. A new user request takes precedence.
   do not add placeholder dates.
 - Keep all top-level sections visible. The navigation sits in a horizontal row
   beside the name at the top of the page, wrapping below the name on narrow
-  screens. Other
+  screens. A second set of the same section links sits below the introduction
+  bullets: a numbered vertical list on desktop and wrapping links on mobile.
+  Keep both navigation areas. Other
   experiences uses three compact horizontal boxes with a heading, short subtitle
   and landscape thumbnail. Clicking a box opens a native dialog containing the
   full description, awards and media. Popups size to their content, with a simple

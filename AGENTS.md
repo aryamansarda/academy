@@ -47,7 +47,8 @@ These describe the current agreed design. A new user request takes precedence.
 - The index introduction begins with the supplied paragraph about current Norik
   and Palantir roles, followed by “in the past, i've:” and three bullets about
   quantum ML research, a top-15 competitive programming ranking, and captaining
-  England at the European and World Schools Debating Championships.
+  England at the European and World Schools Debating Championships. The intro
+  bullets use the same text colour as the introduction paragraph.
 - Keep the name, headings, and page copy lowercase, including abbreviations,
   unless the user asks otherwise.
 - Keep descriptions brief and factual, with full stops. Prefer direct language

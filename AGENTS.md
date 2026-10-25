@@ -85,19 +85,18 @@ checkout, reuse it. There is no build or dependency installation needed.
 
 ## Publishing
 
-- The live personal site is `https://aryamansarda.github.io/`.
-- Its public publishing repository is `aryamansarda/aryamansarda.github.io`. GitHub Pages
-  serves the root of that repository's `main` branch, with HTTPS enforced.
-- This workspace's `origin` remains the separate, private
-  `aryamansarda/personal-website` source repository. Changes here do not automatically
-  update the public site.
-- Publish the verified `index.html` in a separate checkout of the publishing
-  repository, retaining its `.nojekyll` file. Fetch and inspect its current state
-  before committing and pushing an update; do not force-push.
-- Do not copy the Academy draft, concepts, source fragment, local context, or
-  other drafts into the public repository unless the user requests it.
+- This is the separate Academy site, copied from the personal website workspace
+  on 2026-10-25. Its live URL is `https://aryamansarda.github.io/academy/`.
+- Its public repository and `origin` are `aryamansarda/academy`. GitHub Pages
+  serves this repository's root `index.html` from `main`, with HTTPS enforced.
+- Keep `.nojekyll`. Use relative asset and page links so the site works under
+  the `/academy/` path. Keep both index HTML files synchronized.
+- The initial site and drafts are preserved by tag `initial-copy-2026-10-25`.
+- Redesign and publish this site independently. Do not push its changes to
+  `aryamansarda/aryamansarda.github.io` or `aryamansarda/personal-website` unless
+  explicitly requested. The main personal site and LinkedIn URL stay unchanged.
 - Before reporting a deployment as live, confirm the Pages build succeeded and
-  the live HTML matches the intended `index.html`.
+  the live HTML matches this repository's intended `index.html`.
 
 ## Verification
 

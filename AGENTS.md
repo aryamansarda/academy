@@ -73,7 +73,7 @@ These describe the current agreed design. A new user request takes precedence.
 - Other experiences contains competitive programming, Strand House, then
   debating. Programming and debating awards belong in their respective popups.
   The debating card subtitle is “captain of england's national debate team,
-  2026 european champions. built the world's biggest u16 free debating competition.”
+  2026 european champions. built and organised the world's biggest u16 free debating competition.”
   The popup retains the fuller biography, awards and WorldSpeak details.
   Keep Strand House dated 2026 and debating without a separate date label, and
   preserve both article links. Awards and other is ordered Pareto, Arkwright, TeenTech science fair winner

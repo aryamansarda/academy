@@ -83,8 +83,8 @@ These describe the current agreed design. A new user request takes precedence.
   (2024, ai-powered hydroponics device, environment & energy), then LSE (2023, organization and role heading
   followed by the aged-15 sentence in muted text; no bullets or code link). The TeenTech PDF is reference-only: do not display or link
   its certificate or photo.
-  Pareto’s description explains its STEM fellowship, mentorship and startup
-  resources in plain language, without promotional rankings.
+  Pareto’s description uses the supplied wording: “fellowship for top stem talent
+  by pareto holdings, one of the largest early stage vc firms in the world.”
   Do not restore Don Lavoie or a separate Writing section without a request.
 - Organization and fellowship links, such as Pareto, retain the heading
   or inline text formatting and are underlined on hover. Reuse `.ai-title` within

@@ -85,9 +85,8 @@ screens; photo pairs inside their dialogs stack. Keep dark mode, keyboard focus,
 - WorldSpeak reach: [official homepage](https://www.worldspeak.co.uk/) reports over
   400 students from 35 countries (checked 2026-10-25). The user supplied the
   description of the largest free competition for students under 16.
-- Pareto description: [official fellowship website](https://paretofellowship.com/),
-  checked 2026-10-25; STEM students, mentorship from founders and investors, and
-  startup resources.
+- Pareto description: user-supplied wording about top STEM talent and Pareto
+  Holdings. The heading links to the [official fellowship website](https://paretofellowship.com/).
 - Other achievements and numerical claims: supplied by the user or retained from
   the existing index. Recheck the view/citation counts when publishing new copy.
 
